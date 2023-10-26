@@ -11,3 +11,7 @@ print(f"你好，{name}")
 # 输入的不管是什么，input返回的值都是字符串
 age = input("你多大了？")
 print(f"{age}岁？你看起来好年轻")
+
+# print()不换行
+print("aaa", end='')
+print("bbb")
