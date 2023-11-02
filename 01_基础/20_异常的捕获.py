@@ -37,7 +37,7 @@ except Exception as e:
 
 # else，finally
 try:
-    f = open("json-w.txt", "r", encoding="UTF-8")
+    f = open("../json-w.txt", "r", encoding="UTF-8")
 except Exception as e:
     print("出现异常了")
 else:

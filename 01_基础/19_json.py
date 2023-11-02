@@ -28,7 +28,7 @@ print(type(data2))  # <class 'list'>
 # 以json形式写入文件
 # data = [{"name": "jack", "age": 20}, {"name": "roce", "age": 18}]
 data = {"name": "jack", "age": 20}
-fw = open("json-w.txt", "w", encoding="UTF-8")
+fw = open("../json-w.txt", "w", encoding="UTF-8")
 json.dump(data, fw)  # 方式一
 # fw.write("\n")
 # json.dump(obj=data, fp=fw)  # 方式二
@@ -37,7 +37,7 @@ json.dump(data, fw)  # 方式一
 fw.close()
 
 # 读取文件中的json数据
-fr = open("json-w.txt", "r", encoding="UTF-8")
+fr = open("../json-w.txt", "r", encoding="UTF-8")
 s = json.load(fr)
 print("read")
 print(s)
