@@ -15,3 +15,5 @@ print(f"{age}岁？你看起来好年轻")
 # print()不换行
 print("aaa", end='')
 print("bbb")
+
+# def print(self, *args, sep=' ', end='\n', file=None):
